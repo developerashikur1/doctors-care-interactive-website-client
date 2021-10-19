@@ -1,0 +1,12 @@
+.service-detail-btn{
+    text-decoration: none;
+    border-radius: 0px;
+    background-color: white;
+    color: #013358;
+    border: 1.5px solid #013358;
+}
+
+.service-detail-btn:hover{
+    background-color: #013358;
+    color: whitesmoke;
+}

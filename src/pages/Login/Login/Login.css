@@ -1,0 +1,57 @@
+.signInMethods button{
+    background-color: white;
+    color: #013358;
+    border: 1.5px solid #013358;
+}
+
+.google{
+    color: rgba(255, 0, 64, 0.616);
+}
+
+.facebook{
+    color: rgba(0, 102, 235, 0.699);
+}
+
+.github{
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.signInMethods button:hover{
+    background-color: #013358;
+    color: whitesmoke;
+}
+
+.signInMethods button:hover .fab{
+    color: whitesmoke;
+}
+
+.input{
+    border: .5px solid #013358;
+    border-radius: 5px;
+}
+
+.continue-btn{
+    background-color: #013358;
+    color: whitesmoke;
+    border: 1.5px solid #013358;
+}
+
+
+
+
+.social-divider{
+    text-align: center;
+    border-bottom: 1px solid #013358;
+    line-height: .1rem;
+
+}
+
+.full-form{
+    box-shadow: 2px 2px 5px #01325891;
+}
+
+.full-form:hover{
+    box-shadow: 5px 5px 15px #01325886;
+    transition: ease-in .3s;
+    transform: scale(1rem) ;
+}

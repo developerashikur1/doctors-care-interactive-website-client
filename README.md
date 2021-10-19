@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Doctors Care
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project link is (https://doctors-care-12ac7.web.app/).
 
-## Available Scripts
+## About Us
 
-In the project directory, you can run:
+At Doctors Hospital We Care is more than just a slogan to us, it is an acronym for the values we believe are essential to our business:
 
-### `npm start`
+## Welcome
+Our qualified team of Associates seeks in every instance to ensure that all of our patients and visitors feel from the moment you call or enter any of our facilities.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Empathy
+We seek to always treat you with empathy by responding to your needs and concerns with genuine interest.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Commitment
+We deliver our services with a commitment to do the right thing, every day with every customer and every encounter.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Accountability & ownership
+We take accountability and ownership by seeking and accepting your feedback as an opportunity to learn and improve.
 
-### `npm run build`
+## Respect
+We respect your right to privacy and dignity.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Excellence
+In our efforts to consistently achieve excellence, we commit to understanding your expectations and performing at a level that exceeds them.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Our Mission
+Doctors Hospital exists to operate a quality acute care hospital that:
+Meets and exceeds the healthcare needs and expectations of our patients,
+Provides an enriching and rewarding professional environment for our Associates and Physicians,
+Makes a positive contribution to the advancement of healthcare in the Region, and
+Provide increasing value to our shareholders.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

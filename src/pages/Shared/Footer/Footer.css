@@ -1,0 +1,22 @@
+.footer{
+    padding: 150px 125px;
+    color: whitesmoke;
+    background-color: #013358;
+}
+
+
+.quick-links a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+@media only screen and (max-width: 688px) {
+    .footer{
+        padding: 70px 50px;
+    }
+
+    .quick-links{
+        margin-top: 50px;
+    }
+}
