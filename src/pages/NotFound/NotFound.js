@@ -2,6 +2,8 @@ import React from 'react';
 
 const NotFound = () => {
     return (
+
+        // not found page
         <div>
             <img src="https://i.ibb.co/8XvTFBv/404-error-page-templates.jpg" alt="" style={{ width: '100%' }} />
         </div>

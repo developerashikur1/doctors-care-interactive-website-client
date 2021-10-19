@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './contexts/AuthProvider';
+import Doctor from './pages/Doctor/Doctor';
 import HealthCare from './pages/HealthCare/HealthCare';
 import Home from './pages/Home/Home/Home';
 import ServiceDetail from './pages/Home/ServiceDetail/ServiceDetail';
@@ -14,6 +15,8 @@ import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 function App() {
   return (
+
+    // all routers
     <div>
       <AuthProvider>
         <Router>
@@ -40,7 +43,12 @@ function App() {
             <Route path="/register">
               <Register></Register>
             </Route>
-
+            <Route path="/ourcommunity">
+              <OurCommunity></OurCommunity>
+            </Route>
+            <PrivateRoute path="/doctor/:doctorId">
+              <Doctor></Doctor>
+            </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
             </Route>

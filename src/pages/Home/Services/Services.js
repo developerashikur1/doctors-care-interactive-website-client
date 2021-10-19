@@ -3,9 +3,13 @@ import useService from "../../../hooks/useService";
 import Service from "../Service/Service";
 
 const Services = () => {
+
+    // hooks
     const [serve] = useService();
 
     return (
+
+        // services main page
         <div className="container my-5">
             <h2 className="fs-1 fs-bolder fw-bold text-center">Our Services</h2>
 

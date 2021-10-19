@@ -5,6 +5,7 @@ import Slider from '../Slider/Slider';
 
 const Home = () => {
     return (
+        // three pages
         <div>
             <Slider></Slider>
             <PreRegister></PreRegister>

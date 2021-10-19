@@ -1,0 +1,19 @@
+.doctor-cards{
+    text-decoration: none;
+    color: #013358;
+}
+
+.services:hover{
+    color: whitesmoke;
+    background-color: #013358;
+    transition: ease-in .5s;
+}
+
+.card-second-body{
+    display: none;
+}
+
+.services:hover .card-second-body{
+    display: block;
+    transition: ease-in-out .2s;
+}

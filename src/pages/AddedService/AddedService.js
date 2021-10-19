@@ -1,27 +1,28 @@
 import React from 'react';
-import { Button, Card, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Card, Col } from 'react-bootstrap';
+import SingleAddedService from '../SingleAddedService/SingleAddedService';
+import './AddedService.css';
 
 const AddedService = (props) => {
-    const { cover_image, title } = props.healthy;
+    const { cover_image, title, id } = props.healthy;
     return (
         <>
             <Col>
-                <Card>
-                    <Card.Img style={{ width: "100%", height: "300px", objectFit: "cover" }} variant="top" src={cover_image} />
+
+                {/* cards */}
+                <Card className="addedService">
+                    <div style={{ overflow: 'hidden' }}>
+                        <Card.Img style={{ width: "100%", height: "300px", objectFit: "cover" }} variant="top" src={cover_image} />
+                    </div>
+
+                    {/* card body */}
                     <Card.Body>
                         <Card.Title>{title}</Card.Title>
-                        {/* <Card.Text>
-                            {subtitle.slice(0, 100)}
-                        </Card.Text> */}
                     </Card.Body>
-                    {/* <div>
-                        <Link style={{ textDecoration: 'none' }} to={`/serviceDetail/${_id}`} className="d-grid">
-                            <Button className="service-detail-btn" size="lg">
-                                See {serviceName} Details
-                            </Button>
-                        </Link>
-                    </div> */}
+                    <br />
+
+                    {/* single new service */}
+                    <SingleAddedService id={id}></SingleAddedService>
                 </Card>
             </Col>
         </>

@@ -2,6 +2,8 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
 const Slider = () => {
+
+    // home slider images
     const carousels = {
         slider_1: "https://i.ibb.co/18svGrw/5-Jp8na8-YZz-LIrs4aqi7ww-OD93-V1-ASPG892q-Mzy-H3.jpg",
         slider_2: "https://i.ibb.co/QMJjLsr/M67mk-Fhv-YAz1-EDCVv-CAYf-K4-P0-Qg-Bmk-Ew-Uagk-H4q-L.jpg",
@@ -11,8 +13,12 @@ const Slider = () => {
 
     }
     return (
+
+        // slider section
         <div>
             <Carousel>
+
+                {/* slider item 1 */}
                 <Carousel.Item interval={1000}>
                     <img
                         className="d-block w-100"
@@ -20,6 +26,8 @@ const Slider = () => {
                         alt="First slide"
                     />
                 </Carousel.Item>
+
+                {/* slider item 2 */}
                 <Carousel.Item interval={1000}>
                     <img
                         className="d-block w-100"
@@ -27,6 +35,8 @@ const Slider = () => {
                         alt="Second slide"
                     />
                 </Carousel.Item>
+
+                {/* slider item 3 */}
                 <Carousel.Item interval={1000}>
                     <img
                         className="d-block w-100"
@@ -34,6 +44,8 @@ const Slider = () => {
                         alt="Third slide"
                     />
                 </Carousel.Item>
+
+                {/* slider item 4 */}
                 <Carousel.Item interval={1000}>
                     <img
                         className="d-block w-100"

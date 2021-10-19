@@ -1,9 +1,6 @@
-.signInMethods button{
-    background-color: white;
-    color: #013358;
-    border: 1.5px solid #013358;
-}
 
+
+/* social button */
 .google{
     color: rgba(255, 0, 64, 0.616);
 }
@@ -15,6 +12,16 @@
 .github{
     color: rgba(0, 0, 0, 0.747);
 }
+
+
+
+/* sign in form  */
+.signInMethods button{
+    background-color: white;
+    color: #013358;
+    border: 1.5px solid #013358;
+}
+
 
 .signInMethods button:hover{
     background-color: #013358;
@@ -38,7 +45,7 @@
 
 
 
-
+/* divider and control */
 .social-divider{
     text-align: center;
     border-bottom: 1px solid #013358;

@@ -1,0 +1,21 @@
+.doctor-cover{
+    background: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.658)), url("https://i.ibb.co/V2VV79K/find-a-doctor.jpg");
+    color: whitesmoke;
+    padding-top: 5px;
+    
+}
+
+.doctor-cover h2{
+    margin-top: 100px;
+    line-height: 25rem;
+}
+
+
+/* responsive mobile */
+
+@media only screen and (max-width:688) {
+    .doctor-cover h2{
+        margin-top: 50px;
+        line-height: 100px;
+    }    
+}

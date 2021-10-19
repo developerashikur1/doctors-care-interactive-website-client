@@ -6,9 +6,14 @@ const PreRegister = () => {
     return (
         <div className="container my-5">
             <Row>
+
+                {/* image */}
                 <Col md={4} sm={12} xs={12} lg={4}>
                     <img style={{ width: "100%" }} src="https://website-api.doctorshosp.com/storage/images/home_page_images/zgIAcLpECmEMLki5JMfaCLZp4WmXqfwCLnTbzaY3.jpeg" alt="" />
                 </Col>
+
+
+                {/* description */}
                 <Col md={1}></Col>
                 <Col md={12} sm={12} xs={12} lg={7}>
                     <h2>Pre-Register for Doctors <br /> Hospital Services</h2>

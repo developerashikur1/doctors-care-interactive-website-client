@@ -5,12 +5,14 @@ import initializeAuthentication from "../pages/Login/firebase/firebase.init";
 initializeAuthentication();
 const useFirebase = () => {
 
+    // hooks
     const [user, setUser] = useState({});
     const [error, setError] = useState('');
     const [isLoading, setIsLoading] = useState(true);
 
     const auth = getAuth();
 
+    // providers
     const googleProvider = new GoogleAuthProvider();
     const githubProvider = new GithubAuthProvider();
 
@@ -40,6 +42,7 @@ const useFirebase = () => {
     }
 
 
+    // dependency observers
     useEffect(() => {
         const unsubscribed = onAuthStateChanged(auth, (user) => {
             if (user?.email) {
@@ -54,6 +57,7 @@ const useFirebase = () => {
     }, [])
 
 
+    // sign oUt
     const logOut = () => {
         setIsLoading(true)
         signOut(auth)
@@ -66,6 +70,7 @@ const useFirebase = () => {
             })
     }
 
+    // all returns
     return {
         user,
         error,

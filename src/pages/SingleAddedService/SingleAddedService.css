@@ -1,0 +1,17 @@
+
+.buttonSingle button{
+    border-radius: none !important;
+    background-color: white;
+    color: #013358;
+    border-top: 1.5px solid #013358;
+}
+
+.buttonSingle button:hover{
+    background-color: #013358 !important;
+    color: whitesmoke;
+}
+
+
+.single{
+        background-color: #013358;
+}

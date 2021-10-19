@@ -10,3 +10,18 @@
     background-color: #013358;
     color: whitesmoke;
 }
+
+.services{
+    box-shadow: 2px 2px 0px #01325867;
+}
+
+.services:hover{
+    cursor:pointer;
+    box-shadow: 5px 5px 15px #013258a4;
+}
+
+.services:hover img{
+    transform: scale(1.2);
+transition: ease-in .5s;
+}
+

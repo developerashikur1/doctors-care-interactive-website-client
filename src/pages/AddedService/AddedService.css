@@ -1,0 +1,14 @@
+.addedService{
+    box-shadow: 2px 2px 0px #01325867;
+}
+
+.addedService:hover{
+    cursor:pointer;
+    box-shadow: 5px 5px 15px #013258a4;
+}
+
+.addedService:hover img{
+    transform: scale(1.2);
+transition: ease-in .5s;
+}
+

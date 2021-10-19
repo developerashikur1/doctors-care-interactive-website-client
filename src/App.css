@@ -13,6 +13,8 @@
   }
 }
 
+
+/* app header */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,6 +29,9 @@
 .App-link {
   color: #61dafb;
 }
+
+
+/* responsive mobile mode */
 
 @keyframes App-logo-spin {
   from {

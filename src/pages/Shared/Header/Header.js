@@ -4,13 +4,20 @@ import './Header.css';
 import useAuth from '../../../contexts/useAuth';
 
 const Header = () => {
+    // custom hooks
     const { user, logOut } = useAuth();
 
     return (
         <>
+
+            {/* header section */}
             <Navbar sticky="top" className="navber" expand="lg">
                 <Container>
+
+                    {/* header brand name */}
                     <Navbar.Brand as={Link} style={{ color: "whitesmoke" }} to="/home">Doctor's Care</Navbar.Brand>
+
+                    {/* header toggle menu */}
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>

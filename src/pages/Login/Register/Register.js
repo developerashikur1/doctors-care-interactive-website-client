@@ -7,6 +7,8 @@ import { useHistory, useLocation } from 'react-router';
 const Register = () => {
     const registerImage = "https://i.ibb.co/8Nv7Y6h/496130-PHGFIZ-389.jpg";
 
+
+    // hooks
     const [firstPass, setFirstPass] = useState('');
     const [password, setPassword] = useState('');
     const [email, setEmail] = useState('');
@@ -14,25 +16,31 @@ const Register = () => {
     const location = useLocation();
     const history = useHistory();
 
-    const { signInUsingGoogle, signInUsingGithub, registrationUsingUserPassword, error, user } = useAuth();
+    // destructuring from hooks
+    const { signInUsingGoogle, signInUsingGithub, registrationUsingUserPassword, error } = useAuth();
 
+    // email handler
     const handleEmail = (e) => {
         e.preventDefault();
         setEmail(e.target.value)
     }
 
+
+    // first password control
     const handleFirstPass = (e) => {
         e.preventDefault();
         setFirstPass(e.target.value)
     }
 
 
+    // confirm password control
     const handleSecondPass = (e) => {
         e.preventDefault();
         setPassword(e.target.value)
     }
 
 
+    // register button control
     const handleRegister = (e) => {
         e.preventDefault();
         if (firstPass === password) {
@@ -56,9 +64,13 @@ const Register = () => {
 
             </div>
             <Row>
+
+                {/* register form */}
                 <Col sm={12} md={6} className="p-4">
                     <div className="full-form py-5 px-4">
                         <div className="d-grid signInMethods gap-2">
+
+                            {/* third party social buttons */}
                             <Button onClick={signInUsingGoogle} striped bordered hover size="lg">
                                 <i class="fab google fa-google"> </i> &nbsp; &nbsp;Continue with google
                             </Button>
@@ -76,6 +88,9 @@ const Register = () => {
                         </div>
                         <br />
                         <br />
+
+
+                        {/* forms with all filed */}
                         <div>
                             <FloatingLabel
                                 border="primary"
@@ -104,6 +119,8 @@ const Register = () => {
                             </FloatingLabel>
                             {error && <span className="text-danger">{error.slice(22, 42)}<br /></span>}
                             <br />
+
+                            {/* register button */}
                             <div className="d-grid gap-2">
                                 <Button onClick={handleRegister} className="continue-btn" striped bordered hover variant="secondary" size="lg">
                                     Register
